@@ -1,0 +1,43 @@
+
+.main{
+    background: #000;
+}
+.container{
+    background-color: brown;
+     width: 300px; 
+     /* 16 * 10 =160 */ 
+     height: 400px;
+     /* min-width: 300px;
+     max-width: 600px; */
+     overflow: hidden;
+     padding: 35px 20px 35px 20px;
+     margin: 30px;
+     border-color: rgb(245, 25, 215);
+     border-width: 3px;
+     border-style: groove;
+     display: inline-block;
+     background-image: url(./download.jpeg) ;
+     background-repeat: no-repeat;
+     background-size: 100% 100% ;
+     box-shadow: 20px 20px 60px green;
+     border-radius: 50px 20px;
+    
+
+}
+.container>p{
+  font-size:  1.5rem;
+}
+/* .container p:hover{   
+        /* pseudo element */
+    
+
+.container p::first-letter{
+background-color : rgb(33, 173, 155);
+}
+
+h1{
+    background-color: brown;
+    font-weight: bold;
+    font-size: 50px;
+
+}
